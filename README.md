@@ -36,23 +36,25 @@ cd sudoku_CSP/sudoku_csp
 
 3. Run the program:
 
-````
+```
 python main.py
 ```
+
+---
 
 ## 🧠 Algorithms Used
 
 ### ✅ MRV (Minimum Remaining Values)
+
 Selects the variable (empty cell) with the fewest remaining legal values, allowing the solver to "fail fast" and reduce unnecessary search.
 
 ### ✅ Least Constraining Value (LCV)
+
 For a given cell, values are tried in an order that **constrains other cells the least**, preserving more options for future assignments.
 
 These techniques combined significantly improve performance over basic backtracking.
 
-
 ## 📘 Sample Usage
-
 
 🧩 Choose a puzzle:
 
@@ -100,5 +102,3 @@ Enter number (1–10) or press Enter for random: 3
 
 👤 Created by [Your Name]
 🔗 Powered by Python CSP techniques
-
-````
