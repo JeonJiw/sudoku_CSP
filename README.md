@@ -97,8 +97,3 @@ Enter number (1–10) or press Enter for random: 3
 - Add Forward Checking or AC-3 for arc consistency
 - Support for loading user-uploaded puzzles
 - GUI with Tkinter or Pygame
-
----
-
-👤 Created by [Your Name]
-🔗 Powered by Python CSP techniques
