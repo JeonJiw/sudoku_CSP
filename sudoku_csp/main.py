@@ -17,7 +17,7 @@ def select_puzzle(puzzles):
             return puzzles[idx]
     return random.choice(puzzles)
 
-# === Main loop ===
+
 if __name__ == "__main__":
     puzzles = load_puzzles("puzzles.json")
 

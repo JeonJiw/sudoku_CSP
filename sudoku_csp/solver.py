@@ -2,12 +2,10 @@ def get_valid_values(board, row, col):
     """Return a list of valid numbers that can be placed at (row, col)"""
     possible = set(range(1, 10))
 
-    # Row & Column
     for i in range(9):
         possible.discard(board[row][i])
         possible.discard(board[i][col])
 
-    # 3x3 block
     start_row, start_col = 3 * (row // 3), 3 * (col // 3)
     for r in range(start_row, start_row + 3):
         for c in range(start_col, start_col + 3):
@@ -53,7 +51,7 @@ def least_constraining_values(board, row, col):
 def solve_sudoku(board):
     cell = select_mrv_variable(board)
     if not cell:
-        return True  # Solved
+        return True  
 
     row, col = cell
     for num in least_constraining_values(board, row, col):
