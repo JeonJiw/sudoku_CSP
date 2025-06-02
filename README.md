@@ -52,7 +52,7 @@ These techniques combined significantly improve performance over basic backtrack
 
 
 ## 📘 Sample Usage
-````
+
 
 🧩 Choose a puzzle:
 
@@ -98,5 +98,7 @@ Enter number (1–10) or press Enter for random: 3
 
 ---
 
-👤 Created by [Your Name]  
+👤 Created by [Your Name]
 🔗 Powered by Python CSP techniques
+
+````
